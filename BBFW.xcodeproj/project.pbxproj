@@ -10,6 +10,19 @@
 		10310C29C43778763469CBBD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B13C850A7C7EA03E8FE0A5A9 /* libPods.a */; };
 		561BE0291D10FE8B00E46BBF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 561BE0281D10FE8B00E46BBF /* README.md */; };
 		561BE02B1D10FFE100E46BBF /* CodeStandard.md in Sources */ = {isa = PBXBuildFile; fileRef = 561BE02A1D10FFE100E46BBF /* CodeStandard.md */; };
+		561BE0351D11252E00E46BBF /* ValidateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE0341D11252E00E46BBF /* ValidateUtil.m */; };
+		561BE0381D11253800E46BBF /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE0371D11253800E46BBF /* MyTextView.m */; };
+		561BE0441D1126FE00E46BBF /* BaseRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE03F1D1126FE00E46BBF /* BaseRequestModel.m */; };
+		561BE0451D1126FE00E46BBF /* RequestResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE0431D1126FE00E46BBF /* RequestResultModel.m */; };
+		561BE0461D1127D600E46BBF /* MyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE03A1D1125ED00E46BBF /* MyUtil.m */; };
+		561BE04D1D11290800E46BBF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE04A1D11290800E46BBF /* BaseNavigationController.m */; };
+		561BE04E1D11290800E46BBF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE04C1D11290800E46BBF /* BaseViewController.m */; };
+		561BE0511D112A1900E46BBF /* UIAlertView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE0501D112A1900E46BBF /* UIAlertView+Utilities.m */; };
+		561BE0541D112A5F00E46BBF /* NSObject+YLSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE0531D112A5F00E46BBF /* NSObject+YLSwizzle.m */; };
+		561BE0571D112A9D00E46BBF /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE0561D112A9D00E46BBF /* UIImage+Extension.m */; };
+		561BE05A1D112B8900E46BBF /* UIViewController+LvDismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE0591D112B8900E46BBF /* UIViewController+LvDismissKeyboard.m */; };
+		561BE0601D112FF300E46BBF /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE05D1D112FF300E46BBF /* BaseTableViewCell.m */; };
+		561BE0611D112FF300E46BBF /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BE05F1D112FF300E46BBF /* BaseTableView.m */; };
 		567BCC7E1D10F51B009BCC45 /* UIViewController+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 567BCC7D1D10F51B009BCC45 /* UIViewController+Log.m */; };
 		56DC64A11CFC3BA000EDEAB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC64A01CFC3BA000EDEAB6 /* main.m */; };
 		56DC64A41CFC3BA000EDEAB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC64A31CFC3BA000EDEAB6 /* AppDelegate.m */; };
@@ -43,6 +56,33 @@
 		47854D34A9A4BC50DC5A1B50 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		561BE0281D10FE8B00E46BBF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		561BE02A1D10FFE100E46BBF /* CodeStandard.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CodeStandard.md; sourceTree = "<group>"; };
+		561BE0331D11252E00E46BBF /* ValidateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidateUtil.h; sourceTree = "<group>"; };
+		561BE0341D11252E00E46BBF /* ValidateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidateUtil.m; sourceTree = "<group>"; };
+		561BE0361D11253800E46BBF /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
+		561BE0371D11253800E46BBF /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
+		561BE0391D1125ED00E46BBF /* MyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUtil.h; sourceTree = "<group>"; };
+		561BE03A1D1125ED00E46BBF /* MyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUtil.m; sourceTree = "<group>"; };
+		561BE03E1D1126FE00E46BBF /* BaseRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequestModel.h; sourceTree = "<group>"; };
+		561BE03F1D1126FE00E46BBF /* BaseRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequestModel.m; sourceTree = "<group>"; };
+		561BE0421D1126FE00E46BBF /* RequestResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestResultModel.h; sourceTree = "<group>"; };
+		561BE0431D1126FE00E46BBF /* RequestResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestResultModel.m; sourceTree = "<group>"; };
+		561BE0471D11280700E46BBF /* APPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConfig.h; sourceTree = "<group>"; };
+		561BE0491D11290800E46BBF /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		561BE04A1D11290800E46BBF /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		561BE04B1D11290800E46BBF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		561BE04C1D11290800E46BBF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		561BE04F1D112A1900E46BBF /* UIAlertView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Utilities.h"; sourceTree = "<group>"; };
+		561BE0501D112A1900E46BBF /* UIAlertView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Utilities.m"; sourceTree = "<group>"; };
+		561BE0521D112A5F00E46BBF /* NSObject+YLSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YLSwizzle.h"; sourceTree = "<group>"; };
+		561BE0531D112A5F00E46BBF /* NSObject+YLSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YLSwizzle.m"; sourceTree = "<group>"; };
+		561BE0551D112A9D00E46BBF /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		561BE0561D112A9D00E46BBF /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		561BE0581D112B8800E46BBF /* UIViewController+LvDismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LvDismissKeyboard.h"; sourceTree = "<group>"; };
+		561BE0591D112B8900E46BBF /* UIViewController+LvDismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LvDismissKeyboard.m"; sourceTree = "<group>"; };
+		561BE05C1D112FF300E46BBF /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		561BE05D1D112FF300E46BBF /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		561BE05E1D112FF300E46BBF /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		561BE05F1D112FF300E46BBF /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
 		567BCC791D10F465009BCC45 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		567BCC7A1D10F465009BCC45 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
 		567BCC7C1D10F51B009BCC45 /* UIViewController+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Log.h"; sourceTree = "<group>"; };
@@ -93,6 +133,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		561BE0301D11251C00E46BBF /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				561BE0331D11252E00E46BBF /* ValidateUtil.h */,
+				561BE0341D11252E00E46BBF /* ValidateUtil.m */,
+				561BE0521D112A5F00E46BBF /* NSObject+YLSwizzle.h */,
+				561BE0531D112A5F00E46BBF /* NSObject+YLSwizzle.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		561BE0311D11251C00E46BBF /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Quartz;
+			sourceTree = "<group>";
+		};
+		561BE0321D11251C00E46BBF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				561BE04F1D112A1900E46BBF /* UIAlertView+Utilities.h */,
+				561BE0501D112A1900E46BBF /* UIAlertView+Utilities.m */,
+				561BE0361D11253800E46BBF /* MyTextView.h */,
+				561BE0371D11253800E46BBF /* MyTextView.m */,
+				561BE0551D112A9D00E46BBF /* UIImage+Extension.h */,
+				561BE0561D112A9D00E46BBF /* UIImage+Extension.m */,
+				561BE0581D112B8800E46BBF /* UIViewController+LvDismissKeyboard.h */,
+				561BE0591D112B8900E46BBF /* UIViewController+LvDismissKeyboard.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		561BE03C1D1126FE00E46BBF /* ReqModel */ = {
+			isa = PBXGroup;
+			children = (
+				561BE03D1D1126FE00E46BBF /* BaseReqModel */,
+			);
+			path = ReqModel;
+			sourceTree = "<group>";
+		};
+		561BE03D1D1126FE00E46BBF /* BaseReqModel */ = {
+			isa = PBXGroup;
+			children = (
+				561BE03E1D1126FE00E46BBF /* BaseRequestModel.h */,
+				561BE03F1D1126FE00E46BBF /* BaseRequestModel.m */,
+			);
+			path = BaseReqModel;
+			sourceTree = "<group>";
+		};
+		561BE0401D1126FE00E46BBF /* ResModel */ = {
+			isa = PBXGroup;
+			children = (
+				561BE0411D1126FE00E46BBF /* BaseResModel */,
+			);
+			path = ResModel;
+			sourceTree = "<group>";
+		};
+		561BE0411D1126FE00E46BBF /* BaseResModel */ = {
+			isa = PBXGroup;
+			children = (
+				561BE0421D1126FE00E46BBF /* RequestResultModel.h */,
+				561BE0431D1126FE00E46BBF /* RequestResultModel.m */,
+			);
+			path = BaseResModel;
+			sourceTree = "<group>";
+		};
+		561BE0481D11290800E46BBF /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				561BE0491D11290800E46BBF /* BaseNavigationController.h */,
+				561BE04A1D11290800E46BBF /* BaseNavigationController.m */,
+				561BE04B1D11290800E46BBF /* BaseViewController.h */,
+				561BE04C1D11290800E46BBF /* BaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		561BE05B1D112F9300E46BBF /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				561BE05C1D112FF300E46BBF /* BaseTableViewCell.h */,
+				561BE05D1D112FF300E46BBF /* BaseTableViewCell.m */,
+				561BE05E1D112FF300E46BBF /* BaseTableView.h */,
+				561BE05F1D112FF300E46BBF /* BaseTableView.m */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
 		567BCC7B1D10F50B009BCC45 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +312,7 @@
 				56DC65681CFD64D100EDEAB6 /* PrefixHeader.pch */,
 				567BCC791D10F465009BCC45 /* Singleton.h */,
 				567BCC7A1D10F465009BCC45 /* Log.h */,
+				561BE0471D11280700E46BBF /* APPConfig.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -190,6 +320,7 @@
 		56DC655F1CFD64AA00EDEAB6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				561BE0481D11290800E46BBF /* BaseController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -211,6 +342,8 @@
 		56DC65621CFD64AA00EDEAB6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				561BE03C1D1126FE00E46BBF /* ReqModel */,
+				561BE0401D1126FE00E46BBF /* ResModel */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -233,6 +366,11 @@
 		56DC65651CFD64AA00EDEAB6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				561BE0391D1125ED00E46BBF /* MyUtil.h */,
+				561BE03A1D1125ED00E46BBF /* MyUtil.m */,
+				561BE0301D11251C00E46BBF /* Foundation */,
+				561BE0311D11251C00E46BBF /* Quartz */,
+				561BE0321D11251C00E46BBF /* UIKit */,
 				567BCC7B1D10F50B009BCC45 /* Categories */,
 			);
 			path = Utils;
@@ -248,6 +386,7 @@
 		56DC65671CFD64AA00EDEAB6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				561BE05B1D112F9300E46BBF /* BaseViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -450,12 +589,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561BE0601D112FF300E46BBF /* BaseTableViewCell.m in Sources */,
 				561BE02B1D10FFE100E46BBF /* CodeStandard.md in Sources */,
+				561BE05A1D112B8900E46BBF /* UIViewController+LvDismissKeyboard.m in Sources */,
 				56DC64A71CFC3BA000EDEAB6 /* ViewController.m in Sources */,
+				561BE0461D1127D600E46BBF /* MyUtil.m in Sources */,
 				56DC64A41CFC3BA000EDEAB6 /* AppDelegate.m in Sources */,
+				561BE0541D112A5F00E46BBF /* NSObject+YLSwizzle.m in Sources */,
 				561BE0291D10FE8B00E46BBF /* README.md in Sources */,
 				56DC64A11CFC3BA000EDEAB6 /* main.m in Sources */,
+				561BE0571D112A9D00E46BBF /* UIImage+Extension.m in Sources */,
+				561BE0611D112FF300E46BBF /* BaseTableView.m in Sources */,
+				561BE0441D1126FE00E46BBF /* BaseRequestModel.m in Sources */,
+				561BE0381D11253800E46BBF /* MyTextView.m in Sources */,
+				561BE04D1D11290800E46BBF /* BaseNavigationController.m in Sources */,
+				561BE04E1D11290800E46BBF /* BaseViewController.m in Sources */,
+				561BE0511D112A1900E46BBF /* UIAlertView+Utilities.m in Sources */,
 				567BCC7E1D10F51B009BCC45 /* UIViewController+Log.m in Sources */,
+				561BE0451D1126FE00E46BBF /* RequestResultModel.m in Sources */,
+				561BE0351D11252E00E46BBF /* ValidateUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

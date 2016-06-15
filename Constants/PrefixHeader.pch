@@ -17,6 +17,8 @@
 #endif /* PrefixHeader_pch */
 
 
+
+
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
@@ -24,6 +26,10 @@
 #import "AFNetworking.h"
 #import "Singleton.h"
 #import "Log.h"
+#import "YYCategories.h"
+#import "APPConfig.h"
+#import "UIViewController+LvDismissKeyboard.h"
+
 
 
 #endif
