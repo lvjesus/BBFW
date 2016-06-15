@@ -7,7 +7,7 @@ pod 'AFNetworking', '~> 3.1.0'
 pod 'Masonry', '~> 1.0.0'
 pod 'SDWebImage', '~> 3.7.5'
 pod 'MJRefresh', '~> 3.1.0'
-pod 'BaiduMapKit', '~> 3.0.0'
+#pod 'BaiduMapKit', '~> 3.0.0'
 #pod 'HyphenateFullSDK', :git => 'https://github.com/easemob/hyphenate-full-cocoapods.git'
 
 #pod 'MGSwipeTableCell', '~> 1.5.1'
