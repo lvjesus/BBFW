@@ -1,0 +1,29 @@
+
+//
+//  PrefixHeader.pch
+//  BBFW
+//
+//  Created by Bright on 16/5/31.
+//  Copyright © 2016年 lvjesus. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+
+
+#endif /* PrefixHeader_pch */
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "AFNetworking.h"
+#import "Singleton.h"
+#import "Log.h"
+
+
+#endif
