@@ -12,15 +12,15 @@
 /** 日志开关 */
 
 #ifdef DEBUG
-#define YLLog(...) NSLog(__VA_ARGS__)
+#define BBLog(...) NSLog(__VA_ARGS__)
 #else
-#define YLLog(...)
+#define BBLog(...)
 #endif
 
 #ifdef DEBUG
-# define BBLog(format, ... ) NSLog((@"--------------------\n\n文件名及路径:%s" "\n函数名:%s" "\n行号:%d\n" format),__FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+# define BBDetailLog(format, ... ) NSLog((@"--------------------\n\n文件名及路径:%s" "\n函数名:%s" "\n行号:%d\n" format),__FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
 #else
-# define BBLog(...);
+# define BBDetailLog(...);
 #endif
 
 #ifndef __OPTIMIZE__

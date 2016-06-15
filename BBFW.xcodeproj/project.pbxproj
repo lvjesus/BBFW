@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10310C29C43778763469CBBD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B13C850A7C7EA03E8FE0A5A9 /* libPods.a */; };
 		561BE0291D10FE8B00E46BBF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 561BE0281D10FE8B00E46BBF /* README.md */; };
+		561BE02B1D10FFE100E46BBF /* CodeStandard.md in Sources */ = {isa = PBXBuildFile; fileRef = 561BE02A1D10FFE100E46BBF /* CodeStandard.md */; };
 		567BCC7E1D10F51B009BCC45 /* UIViewController+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 567BCC7D1D10F51B009BCC45 /* UIViewController+Log.m */; };
 		56DC64A11CFC3BA000EDEAB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC64A01CFC3BA000EDEAB6 /* main.m */; };
 		56DC64A41CFC3BA000EDEAB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC64A31CFC3BA000EDEAB6 /* AppDelegate.m */; };
@@ -41,6 +42,7 @@
 		4042F7BAF73941C5BCA77894 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		47854D34A9A4BC50DC5A1B50 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		561BE0281D10FE8B00E46BBF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		561BE02A1D10FFE100E46BBF /* CodeStandard.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CodeStandard.md; sourceTree = "<group>"; };
 		567BCC791D10F465009BCC45 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		567BCC7A1D10F465009BCC45 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
 		567BCC7C1D10F51B009BCC45 /* UIViewController+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Log.h"; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		56DC64931CFC3BA000EDEAB6 = {
 			isa = PBXGroup;
 			children = (
+				561BE02A1D10FFE100E46BBF /* CodeStandard.md */,
 				561BE0281D10FE8B00E46BBF /* README.md */,
 				56DC655E1CFD64AA00EDEAB6 /* Constants */,
 				56DC655F1CFD64AA00EDEAB6 /* Controllers */,
@@ -447,6 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561BE02B1D10FFE100E46BBF /* CodeStandard.md in Sources */,
 				56DC64A71CFC3BA000EDEAB6 /* ViewController.m in Sources */,
 				56DC64A41CFC3BA000EDEAB6 /* AppDelegate.m in Sources */,
 				561BE0291D10FE8B00E46BBF /* README.md in Sources */,
